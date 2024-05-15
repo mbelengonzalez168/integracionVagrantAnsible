@@ -1,1 +1,23 @@
-Hola mundo ahora desde Vagrant
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Datos</title>
+</head>
+<body>
+    <h1>Hola equipo Tsoft</h1>
+    <form action="guardar_datos.php" method="post">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required><br><br>
+        
+        <label for="pais">País:</label>
+        <select id="pais" name="pais">
+            <option value="Argentina">Argentina</option>
+            <option value="Chile">Chile</option>
+        </select><br><br>
+        
+        <input type="submit" value="Guardar Datos">
+    </form>
+</body>
+</html>
